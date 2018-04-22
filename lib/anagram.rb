@@ -8,7 +8,7 @@ class Anagram
   def match(list)
     result = []
     list.detect do |item|
-      result = item if anagram.sort == item.sort
+      result = item if item.sort == anagram.sort
     end
   end
 
