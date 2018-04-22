@@ -11,6 +11,5 @@ class Anagram
       result = item if item.split("").sort == @anagram.split("").sort ==
       end
     end
-  end
-
 end
+
