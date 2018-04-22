@@ -6,7 +6,7 @@ class Anagram
   end
 
   def match(list)
-    result = nil
+    result = []
     list.detect do |item|
       result = item if @anagram.reverse == item
     end  
