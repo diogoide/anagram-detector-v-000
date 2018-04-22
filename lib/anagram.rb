@@ -5,9 +5,9 @@ class Anagram
     @anagram = anagram
   end
 
-  def match(list)
+  def match(array)
     result = []
-    list.detect do |item|
+    array.detect do |item|
       result = item if anagram.sort == item.sort_by{|i|i.name} 
     end
   end
