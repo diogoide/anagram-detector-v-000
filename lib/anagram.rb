@@ -8,7 +8,8 @@ class Anagram
   def match(list)
     result = nil
     list.detect do |item|
-      result = item if @anagram.reverse == item 
+      result = item if @anagram.reverse == item
+    end  
   end
 
 end
