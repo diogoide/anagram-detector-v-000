@@ -9,7 +9,6 @@ class Anagram
     result = []
     array.select do |item|
       result = item if anagram.split(" ").sort == item.split(" ").sort
-    
-  end
+    end
 
 end
