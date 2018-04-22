@@ -1,14 +1,14 @@
 class Anagram
-  attr_accessor :anagrams
+  attr_accessor :anagram
 
-  def initialize(anagrams)
-    @anagram = anagrams
+  def initialize(anagram)
+    @anagram = anagram
   end
 
-  def match(anagrams)
-    anagram = self.detect {|i| i.reverse == anagrams}
+  def match(words)
+    anagram = self.detect {|i| i.reverse == words}
     anagram = self.class.new
-    anagram 
+    anagram
   end
 
 end
