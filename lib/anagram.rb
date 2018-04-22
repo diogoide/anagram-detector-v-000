@@ -9,7 +9,7 @@ class Anagram
     result = []
     list.detect do |item|
       result = item if @anagram.reverse == item
-    end  
+    end
   end
 
 end
