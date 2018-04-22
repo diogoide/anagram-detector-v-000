@@ -5,9 +5,9 @@ class Anagram
     @anagram = anagram
   end
 
-  def match(anagram, list)
-    list.detect {|i| i.reverse == anagram}
-    
+  def match(list)
+    list.detect {|i| i.reverse == @anagram}
+
   end
 
 end
