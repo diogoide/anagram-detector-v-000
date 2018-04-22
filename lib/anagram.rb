@@ -7,8 +7,7 @@ class Anagram
 
   def match(anagram, list)
     list.detect {|i| i.reverse == anagram}
-    anagram = self.class.new
-    
+
   end
 
 end
