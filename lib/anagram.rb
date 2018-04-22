@@ -6,7 +6,7 @@ class Anagram
   end
 
   def match(anagram)
-    self.find {|i| i.reverse == anagram}
+    self.detect {|i| i.reverse == anagram}
   end
 
 end
