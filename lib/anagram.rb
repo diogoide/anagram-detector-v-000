@@ -5,8 +5,8 @@ class Anagram
     @anagram = anagram
   end
 
-  def match(words)
-    anagram = self.detect {|i| i.reverse == words}
+  def match(anagram, list)
+    list.detect {|i| i.reverse == anagram}
     anagram = self.class.new
     anagram
   end
