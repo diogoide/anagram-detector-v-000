@@ -7,7 +7,7 @@ class Anagram
 
   def match(anagram, list)
     list.detect {|i| i.reverse == anagram}
-
+    
   end
 
 end
